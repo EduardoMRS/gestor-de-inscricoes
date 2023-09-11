@@ -1,0 +1,133 @@
+
+.nameHeader {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(100, 232, 96);
+}
+
+.infoHeader {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoHeader img {
+    height: 150px;
+    margin-right: 20px;
+}
+
+.bodyDescri {
+    position: relative;
+    width: 80%;
+}
+
+.infoHeader .descriHeader {
+    position: relative;
+    font-size: 20px;
+    left: 18px;
+    top: 14px;
+    color: rgb(100, 232, 96);
+}
+
+.boxDescri {
+    position: relative;
+    height: 130px;
+    padding: 1rem;
+    margin: 15px;
+    background: rgb(157, 156, 156);
+    border-radius: 20px;
+
+}
+
+.midButtons {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.lists {
+    width: 100%;
+    background: rgb(157, 156, 156);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.bodyList {
+    position: relative;
+    margin: 10px;
+    width: 90%;
+    border-radius: 14px;
+    background: rgb(152, 222, 150);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.bodyList div {
+    position: relative;
+    margin: 2px;
+    padding: 4px;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.labelTittle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bodyUser img {
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.labelsTeam {
+    top: 10px;
+    position: relative;
+    color: white;
+}
+
+.users {
+    width: 100%;
+    background: rgb(157, 156, 156);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.bodyUser {
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+    width: 28%;
+    height: 150px;
+    border-radius: 14px;
+    background: rgb(152, 222, 150);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bodyUser img {
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
